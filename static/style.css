@@ -1,0 +1,126 @@
+
+
+.chatbox {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  height: 550px;
+  overflow-y: scroll;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  border: solid #7c7c7c;
+}
+
+.chatbox .header h1 {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 5;
+  font-size: 16px;
+  color: #303030;
+  text-align: start;
+}
+
+.chatbox .messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.chatbox .messages ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chatbox .messages ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.chatbox .messages ul li b {
+  font-weight: bold;
+}
+
+.chatbox .messages ul li.user b {
+  color: #007bff;
+}
+
+.chatbox .messages ul li.bot b {
+  color: #28a745;
+}
+
+.chatbox .input-group {
+  margin-top: 20px;
+  position: relative;
+}
+
+.chatbox .input-group input {
+  width: 95%;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #565;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatbox .input-group button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #7c7c7c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 8px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chatbox .input-group button:hover {
+  background-color: #0056b3;
+}
+
+.quick-replies {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quick-reply {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #555;
+  font-size: 10px;
+  font-weight: 550;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.quick-reply:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.avatar {
+  width: 100%;
+  margin-bottom: 2%;
+
+}
+
+.bot p {
+  font-size: 14px;
+}

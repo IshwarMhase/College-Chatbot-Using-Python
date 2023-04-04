@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Chatbot Using Python</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="chatbox">
+        <div class="header">
+            <!--save your college logo in static folder as "college-logo.png".-->
+            <img src="{{ url_for('static', filename='college-logo.png') }}" alt="College Logo" class="avatar">
+            <h1>College Chatbot :</h1>
+        </div>
+        <div class="messages">
+            <ul id="chat-log">
+                <li class="bot">
+                    <p>Hello! Welcome to the "put your college name" chatbot. How can I help you today?</p>
+                </li>
+            </ul>
+        </div>
+        <div class="fixed-bottom">
+            <div class="input-group">
+                <input id="chat-message-input" type="text" class="form-control" placeholder="Type your message...">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button" id="chat-message-submit">Send</button>
+                </span>
+            </div>
+            <div class="quick-replies">
+                <button class="btn btn-secondary quick-reply" data-payload="Students Intake?">Students Intake</button>
+                <button class="btn btn-secondary quick-reply" data-payload="Fee Structure">Fees Structure</button>
+                <button class="btn btn-secondary quick-reply" data-payload="HOD Contact">HOD Contact Info</button>
+                <button class="btn btn-secondary quick-reply" data-payload="Placement Department Info">Placement Department Info</button>
+                <button class="btn btn-secondary quick-reply" data-payload="Admission Department Info">Admission Department Info</button>
+                <button class="btn btn-secondary quick-reply" data-payload="Facilities">Facilities</button>
+                
+            </div>
+        </div>
+    </div>
+
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+    
+
+</body>
+</html>

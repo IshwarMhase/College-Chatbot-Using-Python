@@ -1,0 +1,70 @@
+{
+    "hi": "Hello! How can I help you today?",
+    "Hi": "Hello! How can I help you today?",
+
+    "hii": "Hello! How can I help you today?",
+    "Hii": "Hello! How can I help you today?",
+    
+    "what is the students intake?": "1. Civil: 60\n2. IT: 60\n3. Electrical: 60\n4. E&TC: 60\n5. Mechanical: 60\n6. CSD: 30",      
+    "What is the Students Intake?": "1. Civil: 60\n2. IT: 60\n3. Electrical: 60\n4. E&TC: 60\n5. Mechanical: 60\n6. CSD: 30",
+    
+    "department wise students intake": "1. Civil: 60\n2. IT: 60\n3. Electrical: 60\n4. E&TC: 60\n5. Mechanical: 60\n6. CSD: 30",
+    "Department wise students intake": "1. Civil: 60\n2. IT: 60\n3. Electrical: 60\n4. E&TC: 60\n5. Mechanical: 60\n6. CSD: 30",
+    
+    
+    "placement department info": "Name of TPO: and Contact no.: ",
+    "Placement Department Info": "Name of TPO: and Contact no.: ",
+    
+    "Civil HOD Contact": "Name:  and Contact no.: ",
+    "IT HOD Contact": "Name:  and Contact no.: ",
+    "Electrical HOD Contact": "Name:  and Contact no.: ",
+    "Mechanical HOD Contact": "Name:  and Contact no.: ",
+    "EnTC HOD Contact": "Name:  and Contact no.: ",
+    
+    "civil hod contact": "Name:  and Contact no.: ",
+    "it hod contact": "Name:  and Contact no.: ",
+    "electrical hod contact": "Name:  and Contact no.: ",
+    "mechanical hod contact": "Name:  and Contact no.: ",
+    "entc hod contact": "Name:  and Contact no.: ",
+    
+
+    "All HOD contact info": "1. Civil HOD: Name:  and Contact no.: \n2. IT HOD: Name:  and Contact no.: \n3. Electrical HOD: Name:  and Contact no.: \n4. Mechanical HOD: Name:  and Contact no.: \n5. EnTC HOD: Name:  and Contact no.: ",
+    
+    "Admission Department Info": "Name:  and Contact no.: ",
+    "admission department info": "Name:  and Contact no.: ",
+    
+    "Facilities": "1. Free wifi\n2. Labrary\n3. Indoor Outdoor sports\n4. Canteen\n5. Reading Hall",
+    "facilities": "1. Free wifi\n2. Labrary\n3. Indoor Outdoor sports\n4. Canteen\n5. Reading Hall",
+
+
+    "All Years Fees Structure": "1) 1st year/FE: 1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS: \n2) 2nd year/SE: \n1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:\n3) 3rd year/TE: \n1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS: \n4) 4th year/BE: \n1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    
+    "1st year fee structure/FE fee structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    "2nd year fee structure/SE fee structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    "3rd year fee structure/TE fee structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    "4th year fee structure/BE fee structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+
+    "1st Year Fee Structure/FE Fee Structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    "2nd Year Fee Structure/SE Fee Structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    "3rd Year Fee Structure/TE Fee Structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+    "4th Year Fee Structure/BE Fee Structure": "1. Open: \n2. OBC: \n3. SC/ST: \n4. NT: \n5. EWS:",
+
+
+
+
+    "College Address": "",
+    "college address": "",
+    "Location": "",
+    "location": "",
+    
+    "College Email": "",
+    "college email": "",
+    
+    "College Contact": "Visit this link to contact directly to college: ",
+    "college contact": "Visit this link to contact directly to college: "
+    
+
+
+
+
+}
